@@ -74,7 +74,8 @@
               <img  class=" test-box"src="images.html/family.jpg" alt="image" style="width:100%">
             </div>  
         </div>
-        <form>
+        <p>Fill in the form below to know the day of the week in which you were born, your Akan name and it's association.</p>
+        <form id="Form" onsubmit="return false" >
          <label for="date">Date:</label><br>
          <input type="number" id="date" name="date" min="1" max="31"><br>
          <label for="month">Month:</label><br>
@@ -89,6 +90,8 @@
             Submit
          </button> 
        </form>
+       <h3 id="alert"></h3>
+       <h3 id="alert2"></h3>
        <script src="js/scripts.js"></script>
     </body>
 </html>
