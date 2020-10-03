@@ -3,16 +3,16 @@
 }
 .row::after {
     content: "";
-    clear: left;
+    clear: inherit;
     display: inherit;
 }
 .test-box{
       border-radius: 50%;
+      float: right;
      
 }
-.description {
-    float: inline-start;
-    
+.container {
+    float: left;  
 }
 .table, th, td {
     border: 1px solid black;
@@ -23,5 +23,9 @@ th, td {
 }
 table {
     border-spacing: 5px;
+
+}
+.container2 {
+    float: left;
 }
 
