@@ -8,11 +8,8 @@
 }
 .test-box{
       border-radius: 50%;
-      float: right;
+      float: left;
      
-}
-.container {
-    float: left;  
 }
 .table, th, td {
     border: 1px solid black;
@@ -25,7 +22,6 @@ table {
     border-spacing: 5px;
 
 }
-.container2 {
-    float: left;
+.container {
+ float: right;
 }
-
