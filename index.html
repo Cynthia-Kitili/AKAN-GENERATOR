@@ -74,7 +74,7 @@
               <img  class=" test-box"src="images.html/family.jpg" alt="image" style="width:100%">
             </div>  
         </div>
-        <form>
+        <form id="form">
          <label for="date">Date:</label><br>
          <input type="number" id="date" name="date" min="1" max="31"><br>
          <label for="month">Month:</label><br>
@@ -85,7 +85,9 @@
          <label for="male">Male</label><br>
          <input type="radio" id="female" name="gender" value="female">
          <label for="female">Female</label><br>
-         <input type="submit" value="Submit">
+         <button class="primary btn" onclick="formData()"> 
+            Submit
+         </button> 
        </form>
        <script src="js/scripts.js"></script>
     </body>
