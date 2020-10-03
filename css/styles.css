@@ -1,12 +1,15 @@
 .column {
     padding: 5px;
-  }
-  .row::after {
+}
+.row::after {
     content: "";
     clear: left;
     display: inherit;
-  }
-  .test-box{
+}
+.test-box{
       border-radius: 50%;
      
-  }
+}
+.description {
+    float: inline-start;
+}
