@@ -8,3 +8,6 @@
     clear: both;
     display: table;
   }
+  .test-box{
+      border-radius: 50%;
+  }
