@@ -24,7 +24,12 @@ table {
 }
 .container {
  float: right;
+ color: black;
+ font-weight: bold;
 }
-.div img {
+.bg-image {
     background-image: url(images.html/girls.jpg);
-  }
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+
+}
