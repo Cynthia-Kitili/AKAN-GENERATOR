@@ -25,3 +25,6 @@ table {
 .container {
  float: right;
 }
+.div img {
+    background-image: url(images.html/girls.jpg);
+  }
