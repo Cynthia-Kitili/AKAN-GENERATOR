@@ -8,3 +8,9 @@ form.addEventListener("submit", (e) => {
     var century=parseInt(document.getElementById("Form").elements.namedItem("century").value);
     var gender = document.getElementById("Form").elements.namedItem("gender")
       .value;  
+    
+      CC = century
+      YY = year
+      MM = month
+      DD = date
+      dayOfTheWeek = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;    
