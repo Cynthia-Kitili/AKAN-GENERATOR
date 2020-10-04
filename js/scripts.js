@@ -14,3 +14,10 @@ form.addEventListener("submit", (e) => {
       MM = month
       DD = date
       dayOfTheWeek = (((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10)) + DD) % 7;    
+      var weekDay = dayOfTheWeek.getDay(); 
+
+  var femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua","Ama"];
+  var  maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi","Kwame"];
+  var day=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  
+
