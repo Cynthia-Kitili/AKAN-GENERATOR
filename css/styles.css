@@ -35,3 +35,15 @@ table {
 .form {
     text-align: inherit;
 }
+.btn:hover {
+    background-color: lightcoral;
+    color: maroon
+}
+.btn {
+    color: black
+}
+h3 {
+    color: maroon;
+    font-style: oblique;
+    font-weight: bold;
+}
