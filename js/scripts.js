@@ -97,7 +97,7 @@ var formData = function() {
     return (document.getElementById("alert").innerHTML =
       "You were born on a : " +
       daysOfTheWeek[weekDay] +
-      ("  .Your Akan name is : " + femaleAkan[weekDay])+ (".It is associated with: " +association[4]));
+      ("  .Your Akan name is : " + femaleAkan[weekDay]) +(".It is associated with: " +association[4]));
 
   } else if (weekDay === 5 && gender === "male") {
     return (document.getElementById("alert").innerHTML =
