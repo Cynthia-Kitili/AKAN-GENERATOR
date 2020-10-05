@@ -9,6 +9,7 @@
 .test-box{
       border-radius: 50%;
       float: left;
+      height: 100%;
      
 }
 .table, th, td {
@@ -16,7 +17,7 @@
     border-collapse: collapse;
 }
 th, td {
-    padding: 15px;
+    padding: 5px;
 }
 table {
     border-spacing: 5px;
@@ -31,9 +32,7 @@ table {
     background-image: url(images.html/girls.jpg);
     
 
-}
-.form {
-    text-align: inherit;
+
 }
 .btn:hover {
     background-color: lightcoral;
@@ -46,4 +45,5 @@ h3 {
     color: maroon;
     font-style: oblique;
     font-weight: bold;
+
 }
