@@ -78,3 +78,8 @@ h3 {
     font-size: 20px;
     color: whitesmoke;
 }
+@media all and (min-width:480px) and (max-width:1500px) {
+  body{
+      background-color: maroon;
+      color: whitesmoke;
+  }
